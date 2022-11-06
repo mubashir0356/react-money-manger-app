@@ -1,0 +1,106 @@
+/* Write your CSS here */
+.money-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.balance-money-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.details-icon {
+  height: 60px;
+  width: 60px;
+}
+
+.money-card-details {
+  margin-left: 20px;
+}
+
+.money-card-title {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+}
+
+.money-card-amount {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.income-money-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.expenses-money-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .balance-money-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31%;
+    margin-bottom: 0px;
+  }
+
+  .income-money-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31%;
+    margin-bottom: 0px;
+  }
+
+  .expenses-money-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31%;
+  }
+
+  .details-icon {
+    height: 70px;
+    width: 70px;
+  }
+
+  .money-card-title {
+    font-size: 16px;
+    color: #475569;
+  }
+}
